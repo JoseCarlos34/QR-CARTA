@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fffaf0;
+  color: #333;
+}
+
+header, footer {
+  background-color: #e74c3c;
+  color: white;
+  padding: 1.2em;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+}
+
+.menu-section h2 {
+  margin-top: 1.5em;
+  color: #c0392b;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-section li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background: white;
+  margin: 20% auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+.modal-content input,
+.modal-content button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.modal-content button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
